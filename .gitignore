@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+server.js
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vite
+.vite/
+
+# Coverage / cache
+coverage/
+.cache/
+.turbo/
+
+# Local desktop / Electron leftovers
+*.local
+app-data/
+
+# GitHub rejects files over 100MB. The desktop zip is attached as a GitHub Release, not git.
+public/assets/aistudio/*.zip
